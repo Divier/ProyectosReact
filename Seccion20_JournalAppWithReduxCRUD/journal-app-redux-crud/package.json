@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:develop": "vite build --base-href=/Contexto/",
+    "build:release": "vite build --base-href=/Contexto/",
+    "build:preprod": "vite build --base-href=/Contexto/",
+    "build:master": "vite build --base-href=/Contexto/"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
