@@ -1,0 +1,1 @@
+export { default as calendarApi } from './calendarApi'; //Se utiliza esta sintaxis ya que se exporto como default
